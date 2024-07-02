@@ -1,0 +1,210 @@
+/** desktop**/
+@font-face{
+	font-family: font_new;
+	src: url(https://inproter.com.pe/wp-content/uploads/font/Comfortaa_.ttf);
+	font-weight:normal;
+}
+*{
+	font-family: font_new;
+}
+.texto_form{
+	color: black !important;
+}
+
+.menu_navbar:after{
+	content:"";
+	width: 0;
+	height: 4px;
+	background-color: red;
+	position: absolute;
+	bottom: 0;
+	right: 50%;
+	transition: all .5s;
+	will-change: width;
+}
+.menu_navbar:hover:after{
+	width: 100%;
+	right: 0;
+}
+
+.wp-block-navigation-item__content{
+	text-decoration: none !important;
+}
+.text_justi{
+	text-align: justify;
+}
+
+/**
+a:hover{
+	color: red !important;
+}
+
+.nab-hov:hover{
+	border-left: 2px solid red;
+}
+**/
+.btn_info:hover{
+	border-left: 5px solid red;
+}
+
+.txt_white-shadow{
+  color: white;
+	-webkit-text-stroke: 1px #F8F8F8;
+	text-shadow: 0px 1px 4px #23430C;
+}
+
+
+
+.btn_brochure{
+  transition: color 0s 0.25s var(--timing-function);
+}
+.btn_brochure::before {
+  transition: transform 0.5s var(--timing-function);
+}
+.btn_brochure::after {
+  transition: opacity 0s 0.25s var(--timing-function);
+}
+.btn_brochure:hover {
+  color: transparent;
+}
+.btn_brochure:hover::before {
+  transform: translate(101%, -50%);
+}
+.btn_brochure:hover::after {
+  opacity: 1;
+}
+
+
+
+.back_blur-titulos{
+	background-color: rgba(0,0,0, 0.5);
+}
+
+.text_white{
+	color: white;
+}
+
+.margen_capacitaciones{
+	margin:0 auto;
+}
+
+.tabla{
+	margin:0 3em;
+}
+
+@media screen and (max-width: 1024px){
+	.navMob{
+	display:none;
+	}
+}
+
+@media screen and (max-width: 425px){
+	.text_justi{
+	text-align: left;
+	}
+	.text_banner{
+		font-size: 1.5em;
+		margin:0 2em;
+	}
+	.img_clientes{
+		padding-bottom: 1em;
+	}
+	.titulo{
+		font-size: 3.8em !important;
+	}
+	.cuadro_texto{
+		margin: 0 2em !important;
+		font-size: 3.8em !important;
+	}
+	.titulo2{
+		font-size: 1.8em !important;
+	}
+	
+	.titulo_mantenimiento{
+		font-size: 2em !important;
+	}
+	
+	.titulo_capacitaciones{
+		font-size: 2em !important;
+	}
+	
+	.titulo3_colaboradores{
+		font-size: 1.3em !important;
+		text-align:justify;
+	}
+	
+	.ocultar{
+		display: none !important;
+		visibility: hidden !important;
+	}
+}
+
+
+/**/
+
+
+
+
+
+
+
+
+
+
+.container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .card {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            width: 100%;
+            text-align: center;
+        }
+        
+        h3 {
+            margin-bottom: 20px;
+        }
+        
+        .form-group {
+            margin-bottom: 15px;
+            text-align: left;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        
+        button {
+            background-color: #007bff;
+            color: #ffffff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+            margin-top: 10px;
+        }
+        
+        button:hover {
+            background-color: #0056b3;
+        }
